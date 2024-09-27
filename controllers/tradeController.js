@@ -1,6 +1,6 @@
 const csv = require('csv-parser');
 const fs = require('fs');
-const Trade = require('../models/Trade');
+const Trade = require('../models/Trades');
 
 // Function to parse and save CSV data
 const uploadCSV = (req, res) => {
